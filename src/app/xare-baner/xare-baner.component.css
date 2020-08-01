@@ -1,0 +1,15 @@
+.xare-baneri-wrapper {
+  border: 3px solid orangered;
+  background-color: aquamarine;
+}
+
+img {
+  height: 200px;
+  border: 2px ;
+}
+
+p {
+  font-size: 20px;
+  color: blueviolet;
+  margin: 20px;
+}

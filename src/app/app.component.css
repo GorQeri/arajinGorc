@@ -1,0 +1,15 @@
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.background {
+  background-color: aquamarine;
+}
+
+button:hover {
+  cursor: pointer;
+}
+a:hover {
+  color: red;
+}
