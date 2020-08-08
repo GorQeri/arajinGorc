@@ -1,0 +1,24 @@
+total 946
+drwxr-xr-x 1 Գոռ 197121      0 Aug  8 22:04 ./
+drwxr-xr-x 1 Գոռ 197121      0 Aug  1 19:58 ../
+-rw-r--r-- 1 Գոռ 197121    853 Jul 23 18:37 .browserslistrc
+-rw-r--r-- 1 Գոռ 197121    274 Jul 23 18:37 .editorconfig
+drwxr-xr-x 1 Գոռ 197121      0 Aug  8 01:35 .git/
+-rw-r--r-- 1 Գոռ 197121    631 Jul 23 18:37 .gitignore
+drwxr-xr-x 1 Գոռ 197121      0 Aug  8 19:45 .idea/
+-rw-r--r-- 1 Գոռ 197121   3558 Jul 23 18:37 angular.json
+-rw-r--r-- 1 Գոռ 197121      3 Aug  8 22:03 demo.txt
+drwxr-xr-x 1 Գոռ 197121      0 Aug  1 19:32 e2e/
+-rw-r--r-- 1 Գոռ 197121      0 Aug  7 21:04 install
+-rw-r--r-- 1 Գոռ 197121   1017 Jul 23 18:37 karma.conf.js
+-rw-r--r-- 1 Գոռ 197121      0 Aug  8 22:04 listing.txt
+drwxr-xr-x 1 Գոռ 197121      0 Aug  8 17:01 node_modules/
+-rw-r--r-- 1 Գոռ 197121   1248 Jul 23 18:37 package.json
+-rw-r--r-- 1 Գոռ 197121 521003 Jul 23 18:41 package-lock.json
+-rw-r--r-- 1 Գոռ 197121   1023 Jul 23 18:37 README.md
+drwxr-xr-x 1 Գոռ 197121      0 Aug  7 13:25 src/
+-rw-r--r-- 1 Գոռ 197121    292 Jul 23 18:37 tsconfig.app.json
+-rw-r--r-- 1 Գոռ 197121    458 Jul 23 18:37 tsconfig.base.json
+-rw-r--r-- 1 Գոռ 197121    426 Jul 23 18:37 tsconfig.json
+-rw-r--r-- 1 Գոռ 197121    338 Jul 23 18:37 tsconfig.spec.json
+-rw-r--r-- 1 Գոռ 197121   3184 Jul 23 18:37 tslint.json
