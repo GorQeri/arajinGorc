@@ -176,3 +176,133 @@ z = x + y;
 <a href="/js/">JavaScript</a> |
 <a href="/jquery/">jQuery</a>
 </nav>
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+<h1>My First Emoji</h1>
+
+<p>&#128512;</p>
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+<form>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<form action="/action_page.php">
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<input type="submit">
+</form>
+
+<form>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+</form>
+<form action="/action_page.php">
+<label for="myfile">Select a file:</label>
+<input type="file" id="myfile" name="myfile"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40"
+stroke="green" stroke-width="4" fill="yellow" />
+Sorry, your browser does not support inline SVG.
+</svg>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+<script>
+
+<p>Count numbers: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button>
+<button onclick="stopWorker()">Stop Worker</button>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+
+<script>
+var w;
+
+function startWorker() {
+if(typeof(Worker) !== "undefined") {
+if(typeof(w) == "undefined") {
+w = new Worker("demo_workers.js");
+}
+w.onmessage = function(event) {
+document.getElementById("result").innerHTML = event.data;
+};
+} else {
+document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+}
+}
+
+function stopWorker() {
+w.terminate();
+w = undefined;
+}
+</script>
+
+<h2>Using a Full URL File Path</h2>
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px">
+<h2>Styling Tables</h2>
+
+<table>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Jill</td>
+<td>Smith</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td>
+<td>94</td>
+</tr>
+<tr>
+<td>John</td>
+<td>Doe</td>
+<td>80</td>
+</tr>
+</table>
+<br>
+
+<table id="t01">
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Jill</td>
+<td>Smith</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td>
+<td>94</td>
+</tr>
+<tr>
+<td>John</td>
+<td>Doe</td>
+<td>80</td>
+</tr>
+</table>
