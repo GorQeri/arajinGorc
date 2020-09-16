@@ -15,4 +15,10 @@ export class XareBanerComponent implements OnInit {
   public tarGoogle(): void {
     console.log('hellovu Raffi');
   }
+
+  public myFunction() {
+    const x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+  }
 }
